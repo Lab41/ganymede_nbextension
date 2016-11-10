@@ -1,4 +1,4 @@
 # We need Jupyter notebooks installed
 # 4.1 is known good, 5.0 is uncertain, but we'll hope it works and wait for
-reports that it does not.
+# reports that it does not.
 notebook >= 4.1.0
