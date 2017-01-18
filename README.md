@@ -13,6 +13,12 @@ After cloning the repository, cd inside of ganymede_nbextension/ then use pip to
 pip install -r requirements.txt .
 `
 
+Depending on your version of Jupyter, you may also have to install the extension with this command:
+
+`
+jupyter serverextension enable --py ganymede
+`
+
 The file jupyter_notebook_config.py is an example configuration file for starting up Jupyter notebook which activates the extension.
 If you already have a configuration file that you are using, append the contents of jupyter_notebook_config.py to your configuration file.
 If your configuration file already contains a list for c.NotebookApp.server_extensions, simply add 'ganymede.ganymede' to that list.
